@@ -1,0 +1,13 @@
+-o ~/music/%(artist)s_%(title)s.%(ext)s
+
+-f bestaudio
+
+# mp3 only
+--extract-audio
+--audio-format mp3
+--audio-quality 0 
+
+# metadata
+--add-metadata
+--embed-metadata
+--embed-thumbnail
