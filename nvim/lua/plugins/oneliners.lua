@@ -8,4 +8,12 @@ return {
     { -- git plugin
         'tpope/vim-fugitive',
     },
+    {
+	-- make netrw look nicer
+	'prichrd/netrw.nvim',
+	opts = {},
+	config = function()
+	    require('netrw').setup({})
+	end
+    },
 }
