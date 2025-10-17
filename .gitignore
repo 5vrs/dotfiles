@@ -19,6 +19,7 @@
 !yt-dlp/
 !yt-dlp/**
 
+!screenshot.png
 !starship.toml
 !xinitrc
 !zshrc
